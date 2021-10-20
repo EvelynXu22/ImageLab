@@ -27,6 +27,10 @@ using namespace cv;
 #pragma mark ===Write Your Code Here===
 // alternatively you can subclass this class and override the process image function
 
+-(bool)processFinger{
+    
+    return false;
+}
 
 #pragma mark Define Custom Functions Here
 -(void)processImage{
